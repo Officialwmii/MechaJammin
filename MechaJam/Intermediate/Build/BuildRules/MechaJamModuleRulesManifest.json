@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/Users/wmii/Documents/GitHub/MechaJammin/Unreal Project/MechaJam/Source/MechaJam/MechaJam.Build.cs",
+		"/Users/wmii/Documents/GitHub/MechaJammin/Unreal Project/MechaJam/Source/MechaJam.Target.cs",
+		"/Users/wmii/Documents/GitHub/MechaJammin/Unreal Project/MechaJam/Source/MechaJamEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.2"
+}
