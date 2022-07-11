@@ -24,7 +24,7 @@
 *.la
 *.a
 *.lib
-*.pdb
+*UnrealEditor-AkAudio.pdb
 
 # Executables
 *.exe
