@@ -1,9 +1,0 @@
-{
-	"BuildId": "19505902",
-	"Modules": 
-	{
-		"AkAudio": "UnrealEditor-AkAudio.dll",
-		"AkAudioMixer": "UnrealEditor-AkAudioMixer.dll",
-		"AudiokineticTools": "UnrealEditor-AudiokineticTools.dll"
-	}
-}
