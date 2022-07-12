@@ -1,0 +1,2733 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MechaJammin.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MechaJammin.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MechaJamminEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Wwise">
+      <UniqueIdentifier>{1D17A4C3-6EEE-3A1D-8221-E46DF9DEC78E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Wwise\Source">
+      <UniqueIdentifier>{A8CABB73-178E-3D16-B4D6-822E67833CE9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Wwise\Source\AkAudio">
+      <UniqueIdentifier>{19CA30D9-476B-35DF-A9C1-CFB2B7DB0F43}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Wwise\Source\AkAudio\AkAudio.Build.cs">
+      <Filter>Plugins\Wwise\Source\AkAudio</Filter>
+    </None>
+    <None Include="..\..\Plugins\Wwise\Source\AkAudio\AkAudio_Android.Build.cs">
+      <Filter>Plugins\Wwise\Source\AkAudio</Filter>
+    </None>
+    <None Include="..\..\Plugins\Wwise\Source\AkAudio\AkAudio_Hololens.Build.cs">
+      <Filter>Plugins\Wwise\Source\AkAudio</Filter>
+    </None>
+    <None Include="..\..\Plugins\Wwise\Source\AkAudio\AkAudio_iOS.Build.cs">
+      <Filter>Plugins\Wwise\Source\AkAudio</Filter>
+    </None>
+    <None Include="..\..\Plugins\Wwise\Source\AkAudio\AkAudio_Linux.Build.cs">
+      <Filter>Plugins\Wwise\Source\AkAudio</Filter>
+    </None>
+    <None Include="..\..\Plugins\Wwise\Source\AkAudio\AkAudio_Mac.Build.cs">
+      <Filter>Plugins\Wwise\Source\AkAudio</Filter>
+    </None>
+    <None Include="..\..\Plugins\Wwise\Source\AkAudio\AkAudio_PS4.Build.cs">
+      <Filter>Plugins\Wwise\Source\AkAudio</Filter>
+    </None>
+    <None Include="..\..\Plugins\Wwise\Source\AkAudio\AkAudio_Switch.Build.cs">
+      <Filter>Plugins\Wwise\Source\AkAudio</Filter>
+    </None>
+    <None Include="..\..\Plugins\Wwise\Source\AkAudio\AkAudio_tvOS.Build.cs">
+      <Filter>Plugins\Wwise\Source\AkAudio</Filter>
+    </None>
+    <None Include="..\..\Plugins\Wwise\Source\AkAudio\AkAudio_Windows.Build.cs">
+      <Filter>Plugins\Wwise\Source\AkAudio</Filter>
+    </None>
+    <None Include="..\..\Plugins\Wwise\Source\AkAudio\AkAudio_XboxOne.Build.cs">
+      <Filter>Plugins\Wwise\Source\AkAudio</Filter>
+    </None>
+    <None Include="..\..\Plugins\Wwise\Source\AkAudio\Wwise_APL.xml">
+      <Filter>Plugins\Wwise\Source\AkAudio</Filter>
+    </None>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes">
+      <UniqueIdentifier>{6CED964E-10E0-30D8-AF72-74964DF1B84B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkAcousticPortal.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkAcousticTexture.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkAcousticTextureSetComponent.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkAmbientSound.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkAssetBase.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkAssetData.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkAudioBank.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkAudioEvent.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkAudioInputComponent.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkAudioInputManager.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkAudioStyle.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkAudioType.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkAuxBus.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkBankManager.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkCallbackInfoPool.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkComponent.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkComponentHelpers.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkDrawPortalComponent.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkDrawRoomComponent.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkEnvironmentIndex.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkFolder.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkGameObject.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkGameplayStatics.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkGameplayTypes.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkGeometryComponent.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkGeometryData.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkGroupValue.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkInitBank.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkLateReverbComponent.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkMediaAsset.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkReverbDescriptor.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkReverbVolume.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkRoomComponent.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkRtpc.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkSettings.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkSettingsPerUser.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkSpatialAudioDrawUtils.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkSpatialAudioHelper.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkSpatialAudioVolume.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkSpotReflector.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkStateValue.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkSubmixInputComponent.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkSurfaceReflectorSetComponent.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkSurfaceReflectorSetUtils.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkSwitchValue.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkTrigger.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkUEFeatures.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkUnrealHelper.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUtils.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\ISoundBankInfoCache.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\MovieSceneAkAudioEventSection.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\MovieSceneAkAudioEventTrack.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\MovieSceneAkAudioRTPCSection.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\MovieSceneAkAudioRTPCTrack.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\MovieSceneAkTrack.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\MovieSceneBackwardsCompatibility.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\MovieSceneFloatChannelSerializationHelper.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\WwiseEventTracking.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\WwiseItemType.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\AkWaapiBlueprints">
+      <UniqueIdentifier>{D103C728-DFA8-36D2-814C-B5908909E8A6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiBlueprints\AkWaapiCalls.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\AkWaapiBlueprints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiBlueprints\AkWaapiFieldNames.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\AkWaapiBlueprints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiBlueprints\AkWaapiFieldNamesCustomization.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\AkWaapiBlueprints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiBlueprints\AkWaapiJsonManager.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\AkWaapiBlueprints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiBlueprints\AkWaapiUri.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\AkWaapiBlueprints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiBlueprints\AkWaapiUriCustomization.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\AkWaapiBlueprints</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\AkWaapiSlate">
+      <UniqueIdentifier>{0DE8F2A3-544E-3B26-98F2-F3232E9824DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\AkWaapiSlate\Widgets">
+      <UniqueIdentifier>{A1565725-4319-3036-B075-1EB24ACD2B20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\AkWaapiSlate\Widgets\Input">
+      <UniqueIdentifier>{D7583CC6-A074-32FE-9263-C64C80B731BC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiSlate\Widgets\Input\AkSSlider.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\AkWaapiSlate\Widgets\Input</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG">
+      <UniqueIdentifier>{21478C36-A396-33D2-B2CE-ED235AF9286D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components">
+      <UniqueIdentifier>{552CB5B4-7744-3F49-A53B-75D7F733D1A3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components\AkBoolPropertyToControlCustomization.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components\AkCheckBox.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components\AkItemBoolProperties.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components\AkItemProperties.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components\AkPropertyToControlCustomization.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components\AkSlider.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components\AkWwiseObjectDetailsStructCustomization.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components\AkWwiseTree.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components\AkWwiseTreeSelector.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components\SAkItemBoolProperties.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components\SAkItemProperties.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components\WwiseBoolPropertyDragDropOp.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components\WwisePropertyDragDropOp.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components\WwiseUmgDragDropOp.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUMG\Components</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\BlueprintNodes">
+      <UniqueIdentifier>{04EEB33B-1BDC-3E7B-85C8-5511B262B549}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\BlueprintNodes\PostEventAsync.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\BlueprintNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\BlueprintNodes\PostEventAtLocationAsync.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\BlueprintNodes</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\GTE">
+      <UniqueIdentifier>{4484B3D3-C5B0-3F7A-9FA2-FE86DA401959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics">
+      <UniqueIdentifier>{1C7318C3-9488-3A1E-85EE-694A3EA72D53}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ACosEstimate.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\AdaptiveSkeletonClimbing2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\AdaptiveSkeletonClimbing3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\AlignedBox.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\APConversion.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\APInterval.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprCircle2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprCone3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprCylinder3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprEllipse2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprEllipseByArcs.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprEllipsoid3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprGaussian2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprGaussian3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprGreatCircle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprHeightLine2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprHeightPlane3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprOrthogonalLine2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprOrthogonalLine3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprOrthogonalPlane3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprParaboloid3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprParallelLines2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprPolynomial2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprPolynomial3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprPolynomial4.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprPolynomialSpecial2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprPolynomialSpecial3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprPolynomialSpecial4.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprQuadratic2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprQuadratic3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprQuery.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprSphere3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ApprTorus3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ArbitraryPrecision.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Arc2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Array2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Array3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Array4.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ASinEstimate.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ATanEstimate.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\AtomicMinMax.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\AxisAngle.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\BandedMatrix.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\BasisFunction.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\BezierCurve.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\BitHacks.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\BoxManager.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\BSNumber.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\BSplineCurve.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\BSplineCurveFit.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\BSplineGeodesic.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\BSplineReduction.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\BSplineSurface.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\BSplineSurfaceFit.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\BSplineVolume.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\BSPPolygon2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\BSPrecision.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\BSRational.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Capsule.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ChebyshevRatio.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\CholeskyDecomposition.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Circle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\CLODPolyline.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Cone.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ConformalMapGenus0.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ConstrainedDelaunay2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ContAlignedBox.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ContCapsule3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ContCircle2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ContCone.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ContCylinder3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ContEllipse2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ContEllipse2MinCR.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ContEllipsoid3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ContEllipsoid3MinCR.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ContLozenge3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ContOrientedBox2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ContOrientedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ContPointInPolygon2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ContPointInPolyhedron3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ContScribeCircle2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ContScribeCircle3Sphere3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ContSphere3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ConvertCoordinates.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ConvexHull2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ConvexHull3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ConvexPolyhedron3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\CosEstimate.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\CubicRootsQR.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\CurvatureFlow2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\CurvatureFlow3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\CurveExtractor.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\CurveExtractorSquares.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\CurveExtractorTriangles.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Cylinder3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DarbouxFrame.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DCPQuery.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Delaunay2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Delaunay2Mesh.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Delaunay3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Delaunay3Mesh.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DisjointIntervals.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DisjointRectangles.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistAlignedBox3OrientedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistAlignedBoxAlignedBox.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistCircle3Circle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistLine3AlignedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistLine3Circle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistLine3OrientedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistLine3Rectangle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistLine3Triangle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistLineLine.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistLineRay.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistLineSegment.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistOrientedBox3OrientedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistPoint3Circle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistPoint3ConvexPolyhedron3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistPoint3Cylinder3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistPoint3Frustum3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistPoint3Plane3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistPoint3Rectangle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistPoint3Tetrahedron3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistPointAlignedBox.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistPointHyperellipsoid.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistPointLine.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistPointOrientedBox.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistPointRay.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistPointSegment.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistPointTriangle.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistPointTriangleExact.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistRay3AlignedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistRay3OrientedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistRay3Rectangle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistRay3Triangle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistRayRay.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistRaySegment.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistRectangle3AlignedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistRectangle3OrientedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistRectangle3Rectangle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistSegment3AlignedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistSegment3OrientedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistSegment3Rectangle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistSegment3Triangle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistSegmentSegment.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistSegmentSegmentExact.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistTriangle3AlignedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistTriangle3OrientedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistTriangle3Rectangle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\DistTriangle3Triangle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\EdgeKey.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Ellipse3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\EllipsoidGeodesic.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ETManifoldMesh.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ETNonmanifoldMesh.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\EulerAngles.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Exp2Estimate.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ExpEstimate.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ExtremalQuery3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ExtremalQuery3BSP.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ExtremalQuery3PRJ.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\FastGaussianBlur1.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\FastGaussianBlur2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\FastGaussianBlur3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\FastMarch.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\FastMarch2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\FastMarch3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\FeatureKey.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\FIQuery.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\FPInterval.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\FrenetFrame.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Frustum3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\GaussianBlur2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\GaussianBlur3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\GaussianElimination.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\GaussNewtonMinimizer.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\GenerateMeshUV.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\GMatrix.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\GradientAnisotropic2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\GradientAnisotropic3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\GVector.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Halfspace.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Histogram.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Hyperellipsoid.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Hyperplane.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Hypersphere.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IEEEBinary.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IEEEBinary16.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Image.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Image2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Image3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ImageUtility2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ImageUtility3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IndexAttribute.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Integration.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntpAkima1.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntpAkimaNonuniform1.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntpAkimaUniform1.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntpAkimaUniform2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntpAkimaUniform3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntpBicubic2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntpBilinear2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntpBSplineUniform.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntpLinearNonuniform2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntpLinearNonuniform3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntpQuadraticNonuniform2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntpSphere2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntpThinPlateSpline2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntpThinPlateSpline3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntpTricubic3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntpTrilinear3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntpVectorField2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrAlignedBox2AlignedBox2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrAlignedBox2Circle2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrAlignedBox2OrientedBox2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrAlignedBox3AlignedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrAlignedBox3Cone3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrAlignedBox3Cylinder3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrAlignedBox3OrientedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrAlignedBox3Sphere3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrArc2Arc2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrCapsule3Capsule3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrCircle2Arc2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrCircle2Circle2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrConvexPolygonHyperplane.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrDisk2Sector2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrEllipse2Ellipse2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrEllipsoid3Ellipsoid3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrHalfspace2Polygon2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrHalfspace3Capsule3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrHalfspace3Cylinder3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrHalfspace3Ellipsoid3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrHalfspace3OrientedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrHalfspace3Segment3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrHalfspace3Sphere3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrHalfspace3Triangle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrIntervals.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrLine2AlignedBox2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrLine2Arc2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrLine2Circle2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrLine2Line2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrLine2OrientedBox2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrLine2Ray2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrLine2Segment2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrLine2Triangle2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrLine3AlignedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrLine3Capsule3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrLine3Cone3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrLine3Cylinder3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrLine3Ellipsoid3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrLine3OrientedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrLine3Plane3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrLine3Sphere3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrLine3Triangle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrOrientedBox2Circle2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrOrientedBox2Cone2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrOrientedBox2OrientedBox2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrOrientedBox2Sector2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrOrientedBox3Cone3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrOrientedBox3Cylinder3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrOrientedBox3Frustum3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrOrientedBox3OrientedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrOrientedBox3Sphere3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrPlane3Capsule3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrPlane3Circle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrPlane3Cylinder3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrPlane3Ellipsoid3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrPlane3OrientedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrPlane3Plane3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrPlane3Sphere3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrPlane3Triangle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrRay2AlignedBox2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrRay2Arc2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrRay2Circle2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrRay2OrientedBox2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrRay2Ray2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrRay2Segment2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrRay2Triangle2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrRay3AlignedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrRay3Capsule3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrRay3Cone3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrRay3Cylinder3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrRay3Ellipsoid3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrRay3OrientedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrRay3Plane3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrRay3Sphere3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrRay3Triangle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrSegment2AlignedBox2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrSegment2Arc2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrSegment2Circle2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrSegment2OrientedBox2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrSegment2Segment2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrSegment2Triangle2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrSegment3AlignedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrSegment3Capsule3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrSegment3Cone3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrSegment3Cylinder3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrSegment3Ellipsoid3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrSegment3OrientedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrSegment3Plane3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrSegment3Sphere3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrSegment3Triangle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrSphere3Cone3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrSphere3Frustum3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrSphere3Sphere3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrSphere3Triangle3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrTriangle2Triangle2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IntrTriangle3OrientedBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\InvSqrtEstimate.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\IsPlanarGraph.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\LCPSolver.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\LevenbergMarquardtMinimizer.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\LexicoArray2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Line.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\LinearSystem.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Log2Estimate.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\LogEstimate.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Logger.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\LogToFile.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\LogToStdout.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\LogToStringArray.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Lozenge3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\MarchingCubes.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\MassSpringArbitrary.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\MassSpringCurve.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\MassSpringSurface.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\MassSpringVolume.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Math.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Matrix.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Matrix2x2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Matrix3x3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Matrix4x4.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Mesh.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\MeshCurvature.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\MinHeap.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\MinimalCycleBasis.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Minimize1.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\MinimizeN.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\MinimumAreaBox2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\MinimumAreaCircle2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\MinimumVolumeBox3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\MinimumVolumeSphere3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\NaturalSplineCurve.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\NearestNeighborQuery.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\NURBSCircle.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\NURBSCurve.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\NURBSSphere.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\NURBSSurface.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\NURBSVolume.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\OBBTreeOfPoints.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\OdeEuler.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\OdeImplicitEuler.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\OdeMidpoint.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\OdeRungeKutta4.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\OdeSolver.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\OrientedBox.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ParametricCurve.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ParametricSurface.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ParticleSystem.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\PdeFilter.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\PdeFilter1.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\PdeFilter2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\PdeFilter3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\PlanarMesh.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Polygon2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\PolyhedralMassProperties.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Polyhedron3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Polynomial1.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\PolynomialCurve.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\PrimalQuery2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\PrimalQuery3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Projection.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\QFNumber.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\QuadricSurface.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\QuarticRootsQR.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Quaternion.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\RangeIteration.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Ray.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Rectangle.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\RectangleManager.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\RectangleMesh.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\RectanglePatchMesh.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\RevolutionMesh.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\RiemannianGeodesic.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\RigidBody.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\RootsBisection.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\RootsBrentsMethod.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\RootsPolynomial.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Rotation.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Sector2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Segment.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\SeparatePoints2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\SeparatePoints3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\SharedPtrCompare.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\SinEstimate.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\SingularValueDecomposition.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\SlerpEstimate.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\SplitMeshByPlane.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\SqrtEstimate.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\StringUtility.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\SurfaceExtractor.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\SurfaceExtractorCubes.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\SurfaceExtractorMC.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\SurfaceExtractorTetrahedra.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\SymmetricEigensolver.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\SymmetricEigensolver2x2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\SymmetricEigensolver3x3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\TanEstimate.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\TCBSplineCurve.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Tetrahedron3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\TetrahedronKey.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ThreadSafeMap.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\ThreadSafeQueue.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\TIQuery.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Torus3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Transform.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Triangle.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\TriangleKey.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\TriangulateCDT.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\TriangulateEC.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\TSManifoldMesh.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\TubeMesh.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\UIntegerALU32.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\UIntegerAP32.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\UIntegerFP32.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\UniqueVerticesTriangles.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\UnsymmetricEigenvalues.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Vector.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Vector2.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Vector3.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\Vector4.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\VEManifoldMesh.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\VertexAttribute.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\VertexCollapseMesh.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\VETManifoldMesh.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\VETNonmanifoldMesh.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics\WeakPtrCompare.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\GTE\Mathematics</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\InitializationSettings">
+      <UniqueIdentifier>{972F359A-954C-3CBE-9BE0-D066D4A38DA2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\InitializationSettings\AkAudioSession.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\InitializationSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\InitializationSettings\AkInitializationSettings.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\InitializationSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\InitializationSettings\AkPlatformInitialisationSettingsBase.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\InitializationSettings</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\OcclusionObstructionService">
+      <UniqueIdentifier>{253B358C-5486-3ECD-9C63-749B840CA538}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\OcclusionObstructionService\AkComponentOcclusionObstructionService.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\OcclusionObstructionService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\OcclusionObstructionService\AkOcclusionObstructionService.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\OcclusionObstructionService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\OcclusionObstructionService\AkPortalOcclusionObstructionService.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\OcclusionObstructionService</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\Platforms">
+      <UniqueIdentifier>{6D87E2C1-15AF-3397-A48B-4E8EAB67767F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatformBase.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatformInfo.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkUEPlatform.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Android">
+      <UniqueIdentifier>{577C3080-9F40-38A8-BF68-96D3FB9E6741}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Android\AkAndroidInitializationSettings.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Android</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Android\AkAndroidPlatform.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Android</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Android\AkAndroidPlatformInfo.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Android</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Hololens">
+      <UniqueIdentifier>{28FD1599-FE23-3772-A57C-E1C95C07E3E3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Hololens\AkHololensInitializationSettings.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Hololens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Hololens\AkHololensPlatform.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Hololens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Hololens\AkHololensPlatformInfo.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Hololens</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_iOS">
+      <UniqueIdentifier>{4EC09C34-D9CD-3DD2-AE41-BE4329BC51ED}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_iOS\AkIOSInitializationSettings.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_iOS\AkIOSPlatform.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_iOS\AkIOSPlatformInfo.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_iOS</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Linux">
+      <UniqueIdentifier>{109FA0D8-1214-3F92-B088-8B92718490D9}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Linux\AkLinuxInitializationSettings.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Linux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Linux\AkLinuxPlatform.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Linux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Linux\AkLinuxPlatformInfo.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Linux</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Mac">
+      <UniqueIdentifier>{6A618C7F-5294-344F-BFD6-8CFBADFC58F2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Mac\AkMacInitializationSettings.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Mac\AkMacPlatform.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Mac\AkMacPlatformInfo.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Mac</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_PS4">
+      <UniqueIdentifier>{E846BD16-9FCD-3E02-BB22-3096481D86CC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_PS4\AkPS4InitializationSettings.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_PS4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_PS4\AkPS4Platform.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_PS4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_PS4\AkPS4PlatformInfo.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_PS4</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Switch">
+      <UniqueIdentifier>{0B545BA3-2058-33AD-A8BE-BCA067FEDF24}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Switch\AkSwitchInitializationSettings.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Switch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Switch\AkSwitchPlatform.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Switch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Switch\AkSwitchPlatformInfo.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Switch</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_tvOS">
+      <UniqueIdentifier>{3E1F8290-DE0F-3EC3-971F-A66AEDA28A0F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_tvOS\AkTVOSInitializationSettings.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_tvOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_tvOS\AkTVOSPlatform.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_tvOS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_tvOS\AkTVOSPlatformInfo.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_tvOS</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Windows">
+      <UniqueIdentifier>{862C7D59-E260-33AB-B591-B58B4A839F11}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Windows\AkWindowsInitializationSettings.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Windows\AkWindowsPlatform.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Windows\AkWindowsPlatformInfo.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Windows</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_XboxOne">
+      <UniqueIdentifier>{FF50FCC0-5558-3A3F-B9BC-C19A2517D7FE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_XboxOne\AkXboxOneInitializationSettings.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_XboxOne</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_XboxOne\AkXboxOnePlatform.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_XboxOne</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_XboxOne\AkXboxOnePlatformInfo.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_XboxOne</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Classes\WaapiPicker">
+      <UniqueIdentifier>{CE24DA06-1B24-32E1-A4DF-2D63E462EC4D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\WaapiPicker\SWaapiPicker.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\WaapiPicker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\WaapiPicker\SWaapiPickerRow.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\WaapiPicker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\WaapiPicker\WaapiPickerViewCommands.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\WaapiPicker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Classes\WaapiPicker\WwiseTreeItem.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Classes\WaapiPicker</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private">
+      <UniqueIdentifier>{0D84D13E-1538-3AE6-9813-24AC33D67818}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkAcousticPortal.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkAcousticTexture.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkAcousticTextureSetComponent.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkAmbientSound.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkAssetBase.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkAssetData.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkAudioBank.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkAudioDevice.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkAudioEvent.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkAudioInputComponent.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkAudioInputManager.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkAudioModule.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkAudioStyle.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkAudioType.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkAuxBus.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkBankManager.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkCallbackInfoPool.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkComponent.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkComponentCallbackManager.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkComponentCallbackManager.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkComponentHelpers.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkCustomVersion.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkCustomVersion.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkDrawPortalComponent.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkDrawRoomComponent.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkEnvironmentIndex.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkGameObject.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkGameplayStatics.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkGameplayTypes.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkGeometryComponent.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkGeometryData.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkGroupValue.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkInitBank.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkLateReverbComponent.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkMediaAsset.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkMediaMemoryManager.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkMediaMemoryManager.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkReverbDescriptor.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkReverbVolume.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkRoomComponent.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkRtpc.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkSettings.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkSettingsPerUser.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkSpatialAudioDrawUtils.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkSpatialAudioHelper.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkSpatialAudioVolume.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkSpotReflector.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkStateValue.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkSubmixInputComponent.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkSurfaceReflectorSetComponent.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkSurfaceReflectorSetUtils.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkSwitchValue.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkTrigger.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkUnrealHelper.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkUnrealIOHook.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkUnrealIOHook.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkWaapiClient.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkWaapiUtils.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Private\IAkUnrealIOHook.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\MovieSceneAkAudioEventSection.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\MovieSceneAkAudioEventTemplate.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Private\MovieSceneAkAudioEventTemplate.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\MovieSceneAkAudioEventTrack.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\MovieSceneAkAudioRTPCSection.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\MovieSceneAkAudioRTPCTemplate.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Private\MovieSceneAkAudioRTPCTemplate.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\MovieSceneAkAudioRTPCTrack.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\WwiseEventTracking.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\AkWaapiBlueprints">
+      <UniqueIdentifier>{57FE3106-9B02-3D22-A92C-6076472D3AF7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkWaapiBlueprints\AkWaapiCalls.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\AkWaapiBlueprints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkWaapiBlueprints\AkWaapiFieldNames.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\AkWaapiBlueprints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkWaapiBlueprints\AkWaapiFieldNamesCustomization.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\AkWaapiBlueprints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkWaapiBlueprints\AkWaapiJsonManager.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\AkWaapiBlueprints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkWaapiBlueprints\AkWaapiUri.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\AkWaapiBlueprints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkWaapiBlueprints\AkWaapiUriCustomization.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\AkWaapiBlueprints</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkWaapiBlueprints\AkWaapiUriList.inc">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\AkWaapiBlueprints</Filter>
+    </None>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\AkWaapiSlate">
+      <UniqueIdentifier>{EA2D14D6-73CC-3C97-933C-45F64777FEBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\AkWaapiSlate\Widgets">
+      <UniqueIdentifier>{F44C9B8B-8B7B-365C-BB36-5BA030C624E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\AkWaapiSlate\Widgets\Input">
+      <UniqueIdentifier>{CFFB2042-3E53-3C7B-845A-47C22FEECF3E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkWaapiSlate\Widgets\Input\AkSSlider.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\AkWaapiSlate\Widgets\Input</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG">
+      <UniqueIdentifier>{F9AAB41E-209E-375B-842C-0CB864E42CBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components">
+      <UniqueIdentifier>{01845B4C-7086-3A1D-BDA8-8370FE3D2DF1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components\AkBoolPropertyToControlCustomization.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components\AkCheckBox.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components\AkItemBoolProperties.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components\AkItemProperties.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components\AkPropertyToControlCustomization.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components\AkSlider.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components\AkWwiseObjectDetailsStructCustomization.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components\AkWwiseTree.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components\AkWwiseTreeSelector.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components\SAkItemBoolProperties.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components\SAkItemProperties.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\AkWaapiUMG\Components</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\BlueprintNodes">
+      <UniqueIdentifier>{2D585FBD-3D9F-3786-A26B-4B3C9512DE03}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\BlueprintNodes\PostEventAsync.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\BlueprintNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\BlueprintNodes\PostEventAtLocationAsync.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\BlueprintNodes</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\Generated">
+      <UniqueIdentifier>{31CA033A-F763-3594-85D6-216F75590280}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Private\Generated\AkiOSPlugins.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Private\Generated\AkSwitchPlugins.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Private\Generated\AktvOSPlugins.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\Generated</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\InitializationSettings">
+      <UniqueIdentifier>{39A3924E-412A-3567-8EDD-050D4E6508EB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\InitializationSettings\AkAudioSession.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\InitializationSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\InitializationSettings\AkInitializationSettings.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\InitializationSettings</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\IntegrationBehavior">
+      <UniqueIdentifier>{22835EA0-0C16-3B1B-B5CC-AE8B56056AC6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\IntegrationBehavior\AkEventBasedIntegrationBehavior.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\IntegrationBehavior</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Private\IntegrationBehavior\AkEventBasedIntegrationBehavior.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\IntegrationBehavior</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\IntegrationBehavior\AkIntegrationBehavior.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\IntegrationBehavior</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Private\IntegrationBehavior\AkIntegrationBehavior.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\IntegrationBehavior</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\IntegrationBehavior\AkLegacyIntegrationBehavior.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\IntegrationBehavior</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Private\IntegrationBehavior\AkLegacyIntegrationBehavior.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\IntegrationBehavior</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\LegacyIOHook">
+      <UniqueIdentifier>{415199B1-8175-3ECB-AEFF-6AF8736FBD43}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\LegacyIOHook\AkFilePackage.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\LegacyIOHook</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Private\LegacyIOHook\AkFilePackage.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\LegacyIOHook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Private\LegacyIOHook\AkFilePackageLowLevelIO.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\LegacyIOHook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Private\LegacyIOHook\AkFilePackageLowLevelIO.inl">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\LegacyIOHook</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\LegacyIOHook\AkFilePackageLUT.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\LegacyIOHook</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Private\LegacyIOHook\AkFilePackageLUT.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\LegacyIOHook</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\LegacyIOHook\AkUnrealLegacyIOHook.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\LegacyIOHook</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Private\LegacyIOHook\AkUnrealLegacyIOHook.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\LegacyIOHook</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\OcclusionObstructionService">
+      <UniqueIdentifier>{082D1A88-C3FC-392C-9BA9-2C1608BDB65E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\OcclusionObstructionService\AkComponentOcclusionObstructionService.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\OcclusionObstructionService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\OcclusionObstructionService\AkOcclusionObstructionService.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\OcclusionObstructionService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\OcclusionObstructionService\AkPortalOcclusionObstructionService.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\OcclusionObstructionService</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\Platforms">
+      <UniqueIdentifier>{2AF32345-F493-37F5-B22F-86D2623322AD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatformBase.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\Platforms\AkUEPlatform.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\Platforms</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_Android">
+      <UniqueIdentifier>{9F1E6BD3-DEA2-3053-8D92-131AD321DF7C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_Android\AkAndroidInitializationSettings.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_Android</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_Hololens">
+      <UniqueIdentifier>{4C8CEFBD-EA14-3711-B6F2-A7EC416880DC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_Hololens\AkHololensInitializationSettings.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_Hololens</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_iOS">
+      <UniqueIdentifier>{67C9FDCC-43F3-3E62-84BB-0D55795B3111}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_iOS\AkIOSInitializationSettings.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_iOS</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_Linux">
+      <UniqueIdentifier>{54756B94-E0AE-3661-BEA9-0F2975AE941C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_Linux\AkLinuxInitializationSettings.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_Linux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_Linux\AkLinuxPlatform.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_Linux</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_Mac">
+      <UniqueIdentifier>{F0C03412-B031-3644-BAB5-A4A2788598BB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_Mac\AkMacInitializationSettings.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_Mac</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_PS4">
+      <UniqueIdentifier>{C40946B7-55F8-3151-94F3-A828F36AA828}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_PS4\AkPS4InitializationSettings.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_PS4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_PS4\AkPS4Platform.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_PS4</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_Switch">
+      <UniqueIdentifier>{57ED0494-79BD-3669-B185-3EEE5C914C9B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_Switch\AkSwitchInitializationSettings.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_Switch</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_tvOS">
+      <UniqueIdentifier>{A8B2772C-5BF8-392C-A72E-02D4A59176AC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_tvOS\AkTVOSInitializationSettings.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_tvOS</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_Windows">
+      <UniqueIdentifier>{F7F92F33-BA86-390B-A291-E2C6670736D0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_Windows\AkWindowsInitializationSettings.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_Windows</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_XboxOne">
+      <UniqueIdentifier>{DBA43943-A46D-3810-A412-83CD80EC00B1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_XboxOne\AkXboxOneInitializationSettings.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\Platforms\AkPlatform_XboxOne</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\StringMatchAlgos">
+      <UniqueIdentifier>{260F2353-B80B-3237-B5BF-E92FC4B92F07}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Private\StringMatchAlgos\Array2D.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\StringMatchAlgos</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\StringMatchAlgos\StringMatching.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\StringMatchAlgos</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Private\StringMatchAlgos\StringMatching.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\StringMatchAlgos</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Private\WaapiPicker">
+      <UniqueIdentifier>{50C497F5-8071-3BE4-A942-4650E651738A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\WaapiPicker\SWaapiPicker.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\WaapiPicker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudio\Private\WaapiPicker\SWaapiPickerRow.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudio\Private\WaapiPicker</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Wwise\Source\AkAudio\Public">
+      <UniqueIdentifier>{500E075C-AD56-35BC-9BC3-40FB8C280E66}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Public\AkAudioDevice.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Public\AkAudioModule.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Public\AkInclude.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudio\Public\AkWaapiClient.h">
+      <Filter>Plugins\Wwise\Source\AkAudio\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\Wwise\Wwise.uplugin">
+      <Filter>Plugins\Wwise</Filter>
+    </None>
+    <Filter Include="Plugins\Wwise\Config">
+      <UniqueIdentifier>{47C5A416-A29E-331B-BF16-6D582912FDA9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Wwise\Config\BaseWwise.ini">
+      <Filter>Plugins\Wwise\Config</Filter>
+    </None>
+    <None Include="..\..\Plugins\Wwise\Config\DefaultWwise.ini">
+      <Filter>Plugins\Wwise\Config</Filter>
+    </None>
+    <Filter Include="Plugins\Wwise\Resources">
+      <UniqueIdentifier>{0F983070-4F79-3E2C-B2F5-B083EF053C37}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Wwise\Resources\Icon128.png">
+      <Filter>Plugins\Wwise\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\Wwise\Source\AkAudioMixer">
+      <UniqueIdentifier>{D54C170C-955B-3C89-9D41-4CE417DCE8B1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Wwise\Source\AkAudioMixer\AkAudioMixer.Build.cs">
+      <Filter>Plugins\Wwise\Source\AkAudioMixer</Filter>
+    </None>
+    <Filter Include="Plugins\Wwise\Source\AkAudioMixer\Private">
+      <UniqueIdentifier>{40812D2D-8F0A-3250-9459-3AA496B99412}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudioMixer\Private\AkAudioMixer.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudioMixer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudioMixer\Private\AkMixerPlatform.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudioMixer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AkAudioMixer\Private\AudioMixerInputComponent.cpp">
+      <Filter>Plugins\Wwise\Source\AkAudioMixer\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Wwise\Source\AkAudioMixer\Public">
+      <UniqueIdentifier>{3CF8E528-BF30-3926-8FF8-66C2681355C6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudioMixer\Public\AkAudioMixer.h">
+      <Filter>Plugins\Wwise\Source\AkAudioMixer\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudioMixer\Public\AkMixerPlatform.h">
+      <Filter>Plugins\Wwise\Source\AkAudioMixer\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AkAudioMixer\Public\AudioMixerInputComponent.h">
+      <Filter>Plugins\Wwise\Source\AkAudioMixer\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AudiokineticTools">
+      <UniqueIdentifier>{E5AA0FD5-A2B8-3F4A-9E65-D82B7C1713CC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Wwise\Source\AudiokineticTools\AudiokineticTools.Build.cs">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools</Filter>
+    </None>
+    <Filter Include="Plugins\Wwise\Source\AudiokineticTools\Classes">
+      <UniqueIdentifier>{880876C0-8427-3B12-95BA-7C40A07D37B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Wwise\Source\AudiokineticTools\Classes\AssetManagement">
+      <UniqueIdentifier>{0D85A89B-49AA-352C-BD7B-24C2DB50E966}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Classes\AssetManagement\GenerateSoundBanksCommandlet.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Classes\AssetManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Classes\AssetManagement\SanitizeWwiseObjectPathCommandlet.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Classes\AssetManagement</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AudiokineticTools\Classes\Factories">
+      <UniqueIdentifier>{657FCE68-A993-3107-8267-AB965F3F9095}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Classes\Factories\ActorFactoryAkAmbientSound.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Classes\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Classes\Factories\AkJsonFactory.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Classes\Factories</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AudiokineticTools\Classes\WwisePicker">
+      <UniqueIdentifier>{460F44B3-38CB-3F2F-87AE-2880B8E96067}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Classes\WwisePicker\WwiseAssetDragDropOp.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Classes\WwisePicker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Classes\WwisePicker\WwiseEventDragDropOp.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Classes\WwisePicker</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AudiokineticTools\Private">
+      <UniqueIdentifier>{1DDC63E1-3385-3215-B166-0F88020BD58C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AkAudioBankGenerationHelpers.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AkEventAssetBroker.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AudiokineticToolsModule.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AudiokineticToolsPrivatePCH.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement">
+      <UniqueIdentifier>{C2E5D400-4DC2-3D0E-8C0A-32794B46C3A5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\AkAssetDatabase.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\AkAssetDatabase.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\AkAssetManagementManager.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\AkAssetManagementManager.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\AkFolderSearchFilter.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\AkFolderSearchFilter.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\AkSoundDataBuilder.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\AkSoundDataBuilder.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\AssetMigrationVisitor.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\AssetMigrationVisitor.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\CookAkSoundDataTask.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\CookAkSoundDataTask.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\CreateAkAssetsVisitor.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\CreateAkAssetsVisitor.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\GenerateSoundBanksCommandlet.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\SanitizeWwiseObjectPathCommandlet.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\StaticPluginWriter.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\StaticPluginWriter.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\WaapiAkSoundDataBuilder.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\WaapiAkSoundDataBuilder.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\WaapiAssetSynchronizer.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\WaapiAssetSynchronizer.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\WwiseConsoleAkSoundDataBuilder.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement\WwiseConsoleAkSoundDataBuilder.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\AssetManagement</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization">
+      <UniqueIdentifier>{FFB87B25-8866-3335-92F7-3AE3156F85DC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization\AkGeometryComponentDetailsCustomization.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization\AkGeometryComponentDetailsCustomization.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization\AkLateReverbComponentDetailsCustomization.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization\AkLateReverbComponentDetailsCustomization.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization\AkPortalComponentDetailsCustomization.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization\AkPortalComponentDetailsCustomization.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization\AkRoomComponentDetailsCustomization.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization\AkRoomComponentDetailsCustomization.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization\AkSettingsDetailsCustomization.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization\AkSettingsDetailsCustomization.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization\AkSurfaceReflectorSetDetailsCustomization.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization\AkSurfaceReflectorSetDetailsCustomization.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\DetailsCustomization</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AudiokineticTools\Private\Factories">
+      <UniqueIdentifier>{97874219-3D77-3FD2-AFD7-73624BD28636}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\Factories\ActorFactoryAkAmbientSound.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\Factories\AkAssetFactories.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\Factories</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\Factories\AkAssetFactories.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\Factories</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\Factories\AkAssetTypeActions.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\Factories</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\Factories\AkAssetTypeActions.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\Factories</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\Factories\AkJsonFactory.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\Factories</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Wwise\Source\AudiokineticTools\Private\Sequencer">
+      <UniqueIdentifier>{6033C0F4-4548-3E5E-925D-D9FB51A46B14}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\Sequencer\MovieSceneAkAudioEventTrackEditor.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\Sequencer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\Sequencer\MovieSceneAkAudioEventTrackEditor.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\Sequencer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\Sequencer\MovieSceneAkAudioRTPCTrackEditor.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\Sequencer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\Sequencer\MovieSceneAkAudioRTPCTrackEditor.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\Sequencer</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AudiokineticTools\Private\ToolBehavior">
+      <UniqueIdentifier>{7E31E0BB-23F7-3C84-9EEB-8E9312ABB241}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\ToolBehavior\AkEventBasedToolBehavior.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\ToolBehavior</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\ToolBehavior\AkEventBasedToolBehavior.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\ToolBehavior</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\ToolBehavior\AkLegacyToolBehavior.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\ToolBehavior</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\ToolBehavior\AkLegacyToolBehavior.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\ToolBehavior</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\ToolBehavior\AkToolBehavior.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\ToolBehavior</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\ToolBehavior\AkToolBehavior.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\ToolBehavior</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AudiokineticTools\Private\UI">
+      <UniqueIdentifier>{C17A93B0-0024-3D43-A48E-35040D20FA63}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\UI\SAcousticSurfacesController.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\UI\SAcousticSurfacesController.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\UI\SAkAudioBankPicker.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\UI\SAkAudioBankPicker.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\UI\SAkGeometrySurfaceOverrideController.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\UI\SAkGeometrySurfaceOverrideController.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\UI\SClearSoundData.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\UI\SClearSoundData.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\UI\SGenerateSoundBanks.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\UI\SGenerateSoundBanks.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\UI\SLegacyGenerateSoundBanks.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\UI\SLegacyGenerateSoundBanks.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\UI</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AudiokineticTools\Private\Visualizer">
+      <UniqueIdentifier>{EDA117B8-3B77-37D1-A120-7228C2BA2614}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\Visualizer\AkAcousticPortalVisualizer.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\Visualizer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\Visualizer\AkAcousticPortalVisualizer.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\Visualizer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\Visualizer\AkComponentVisualizer.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\Visualizer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\Visualizer\AkComponentVisualizer.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\Visualizer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\Visualizer\AkSurfaceReflectorSetComponentVisualizer.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\Visualizer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\Visualizer\AkSurfaceReflectorSetComponentVisualizer.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\Visualizer</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AudiokineticTools\Private\WwisePicker">
+      <UniqueIdentifier>{F6834AE0-5002-362E-A385-561758CF66AF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\WwisePicker\SWwisePicker.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\WwisePicker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\WwisePicker\SWwisePicker.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\WwisePicker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\WwisePicker\WwiseAssetDragDropOp.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\WwisePicker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\WwisePicker\WwiseEventDragDropOp.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\WwisePicker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\WwisePicker\WwisePickerBuilderVisitor.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\WwisePicker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\WwisePicker\WwisePickerBuilderVisitor.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\WwisePicker</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject">
+      <UniqueIdentifier>{C46B1464-DFF3-381B-BFD9-9E8BA0848810}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject\AcousticTextureParamLookup.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject\AcousticTextureParamLookup.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject\WorkUnitXmlVisitor.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject\WwiseProjectInfo.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject\WwiseProjectInfo.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject\WwiseProjectParser.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject\WwiseProjectParser.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject\WwiseSoundBankInfoCache.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject\WwiseSoundBankInfoCache.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject\WwiseWorkUnitParser.cpp">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject\WwiseWorkUnitParser.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Private\WwiseProject</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Wwise\Source\AudiokineticTools\Public">
+      <UniqueIdentifier>{5F82E596-D146-3F17-A6E3-1AD6251DDF6F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Public\AkAudioBankGenerationHelpers.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Wwise\Source\AudiokineticTools\Public\IAudiokineticTools.h">
+      <Filter>Plugins\Wwise\Source\AudiokineticTools\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\MechaJammin">
+      <UniqueIdentifier>{C22761A5-722D-3194-850C-A05A5E4F497E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MechaJammin\MechaJammin.Build.cs">
+      <Filter>Source\MechaJammin</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MechaJammin\MechaJammin.cpp">
+      <Filter>Source\MechaJammin</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MechaJammin\MechaJammin.h">
+      <Filter>Source\MechaJammin</Filter>
+    </ClInclude>
+    <Filter Include="Source\MechaJammin\Private">
+      <UniqueIdentifier>{77847040-1D21-3EC6-A1D7-59BA21FB5FB9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MechaJammin\Private\WwiseEvent.cpp">
+      <Filter>Source\MechaJammin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\MechaJammin\Public">
+      <UniqueIdentifier>{336E86A4-1BD1-343F-819C-647F55B73A47}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MechaJammin\Public\WwiseEvent.h">
+      <Filter>Source\MechaJammin\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

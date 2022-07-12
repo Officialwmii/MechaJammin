@@ -1,0 +1,21 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\wmiip\\OneDrive\\Documents\\Github\\MechaJammin\\MechaJammin\\Source\\MechaJammin\\MechaJammin.Build.cs",
+		"C:\\Users\\wmiip\\OneDrive\\Documents\\Github\\MechaJammin\\MechaJammin\\Plugins\\Wwise\\Source\\AkAudioMixer\\AkAudioMixer.Build.cs",
+		"C:\\Users\\wmiip\\OneDrive\\Documents\\Github\\MechaJammin\\MechaJammin\\Plugins\\Wwise\\Source\\AkAudio\\AkAudio.Build.cs",
+		"C:\\Users\\wmiip\\OneDrive\\Documents\\Github\\MechaJammin\\MechaJammin\\Plugins\\Wwise\\Source\\AkAudio\\AkAudio_Android.Build.cs",
+		"C:\\Users\\wmiip\\OneDrive\\Documents\\Github\\MechaJammin\\MechaJammin\\Plugins\\Wwise\\Source\\AkAudio\\AkAudio_Hololens.Build.cs",
+		"C:\\Users\\wmiip\\OneDrive\\Documents\\Github\\MechaJammin\\MechaJammin\\Plugins\\Wwise\\Source\\AkAudio\\AkAudio_iOS.Build.cs",
+		"C:\\Users\\wmiip\\OneDrive\\Documents\\Github\\MechaJammin\\MechaJammin\\Plugins\\Wwise\\Source\\AkAudio\\AkAudio_Linux.Build.cs",
+		"C:\\Users\\wmiip\\OneDrive\\Documents\\Github\\MechaJammin\\MechaJammin\\Plugins\\Wwise\\Source\\AkAudio\\AkAudio_Mac.Build.cs",
+		"C:\\Users\\wmiip\\OneDrive\\Documents\\Github\\MechaJammin\\MechaJammin\\Plugins\\Wwise\\Source\\AkAudio\\AkAudio_PS4.Build.cs",
+		"C:\\Users\\wmiip\\OneDrive\\Documents\\Github\\MechaJammin\\MechaJammin\\Plugins\\Wwise\\Source\\AkAudio\\AkAudio_Switch.Build.cs",
+		"C:\\Users\\wmiip\\OneDrive\\Documents\\Github\\MechaJammin\\MechaJammin\\Plugins\\Wwise\\Source\\AkAudio\\AkAudio_tvOS.Build.cs",
+		"C:\\Users\\wmiip\\OneDrive\\Documents\\Github\\MechaJammin\\MechaJammin\\Plugins\\Wwise\\Source\\AkAudio\\AkAudio_Windows.Build.cs",
+		"C:\\Users\\wmiip\\OneDrive\\Documents\\Github\\MechaJammin\\MechaJammin\\Plugins\\Wwise\\Source\\AkAudio\\AkAudio_XboxOne.Build.cs",
+		"C:\\Users\\wmiip\\OneDrive\\Documents\\Github\\MechaJammin\\MechaJammin\\Plugins\\Wwise\\Source\\AudiokineticTools\\AudiokineticTools.Build.cs",
+		"C:\\Users\\wmiip\\OneDrive\\Documents\\Github\\MechaJammin\\MechaJammin\\Source\\MechaJammin.Target.cs",
+		"C:\\Users\\wmiip\\OneDrive\\Documents\\Github\\MechaJammin\\MechaJammin\\Source\\MechaJamminEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.2"
+}

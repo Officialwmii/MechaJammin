@@ -1,32 +1,27 @@
-# .gitignore for Unreal Engine projects with embedded Wwise projects
-# This is a work in progress, please report any issues to Quin Henshaw
+.vs/
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+# Precompiled Headers
+*.gch
+*.pch
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+# Fortran module files
+*.mod
 
-# Unreal
-Binaries/
-DerivedDataCache/
-Intermediate/
-Plugins/*/Intermediate/
-Saved/
-Build/
-Builds/
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
 
-# Wwise Project
-Wwise/IncrementalSoundBankData.xml
-Wwise/.cache/
-Wwise/.backup/
-Wwise/*.akd
-Wwise/*.akpk
-Wwise/*.prof
-Wwise/*.validationcache
-Wwise/*.wsettings
-
-# Fmod Project
-FMOD/.user/
-FMOD/.unsaved/
-FMOD/.cache/
-FMOD/.restore/
-FMOD/user/
-FMOD/unsaved/
+# Executables
+*.exe
 FMOD/restore/
 FMOD/fmod.log
 FMOD/fmod_editor.log
@@ -59,4 +54,7 @@ Thumbs.db.meta
 
 # Mac
 *.DS_Store
-*.a
+
+# Don't ignore Wwise .dll and .lib files as these are needed for compiling
+!Plugins/Wwise/*.dll
+!Plugins/Wwise/*.lib

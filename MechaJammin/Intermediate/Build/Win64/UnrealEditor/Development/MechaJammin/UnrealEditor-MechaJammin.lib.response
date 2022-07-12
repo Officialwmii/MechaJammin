@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MechaJammin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\wmiip\OneDrive\Documents\Github\MechaJammin\MechaJammin\Intermediate\Build\Win64\MechaJamminEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\wmiip\OneDrive\Documents\Github\MechaJammin\MechaJammin\Intermediate\Build\Win64\UnrealEditor\Development\MechaJammin\WwiseEvent.cpp.obj"
+"C:\Users\wmiip\OneDrive\Documents\Github\MechaJammin\MechaJammin\Intermediate\Build\Win64\UnrealEditor\Development\MechaJammin\MechaJammin.cpp.obj"
+"C:\Users\wmiip\OneDrive\Documents\Github\MechaJammin\MechaJammin\Intermediate\Build\Win64\UnrealEditor\Development\MechaJammin\MechaJammin.init.gen.cpp.obj"
+"C:\Users\wmiip\OneDrive\Documents\Github\MechaJammin\MechaJammin\Intermediate\Build\Win64\UnrealEditor\Development\MechaJammin\WwiseEvent.gen.cpp.obj"
+"C:\Users\wmiip\OneDrive\Documents\Github\MechaJammin\MechaJammin\Intermediate\Build\Win64\UnrealEditor\Development\MechaJammin\Default.rc2.res"
+/OUT:"C:\Users\wmiip\OneDrive\Documents\Github\MechaJammin\MechaJammin\Intermediate\Build\Win64\UnrealEditor\Development\MechaJammin\UnrealEditor-MechaJammin.lib"

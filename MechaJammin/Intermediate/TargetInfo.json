@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MechaJammin",
+			"Path": "C:\\Users\\wmiip\\OneDrive\\Documents\\Github\\MechaJammin\\MechaJammin\\Source\\MechaJammin.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MechaJamminEditor",
+			"Path": "C:\\Users\\wmiip\\OneDrive\\Documents\\Github\\MechaJammin\\MechaJammin\\Source\\MechaJamminEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

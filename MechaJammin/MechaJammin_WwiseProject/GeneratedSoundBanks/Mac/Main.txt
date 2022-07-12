@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\SFX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	939620815	SFX	C:\Users\wmiip\OneDrive\Documents\Github\MechaJammin\MechaJammin\MechaJammin_WwiseProject\.cache\Mac\SFX\mixkit-fast-small-sweep-transition-166_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\New Actor-Mixer\SFX		137900
+

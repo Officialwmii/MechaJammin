@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\wmiip\\onedrive\\documents\\github\\mechajammin\\mechajammin\\source\\mechajammin\\mechajammin.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\wmiip\\onedrive\\documents\\github\\mechajammin\\mechajammin\\intermediate\\build\\win64\\mechajammineditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\wmiip\\onedrive\\documents\\github\\mechajammin\\mechajammin\\intermediate\\build\\win64\\unrealeditor\\development\\mechajammin\\definitions.mechajammin.h",
+            "c:\\users\\wmiip\\onedrive\\documents\\github\\mechajammin\\mechajammin\\source\\mechajammin\\mechajammin.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
